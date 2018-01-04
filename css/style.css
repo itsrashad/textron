@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    bottom: 20px;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+body * {
+    text-shadow: none;
+}
+
+#page nav
+{
+    display: none;
+}
+
+header ,footer{
+    background: none repeat scroll 0 0 rgba(177,188,254,0.6);
+    color: #0019FC;
+    height: 60px;
+}
+header a.right, .header a.right {
+    bottom: 34px;
+    float: right;
+    position: relative;
+    right: 5px;
+}
+.header_a {
+    top: 40px;
+    position: relative;
+    left: 10px;
+}
+header p {
+    width: 15%;   
+    text-align: center;
+    margin: 0.8% auto;
+}
+
+
+header h1 {
+    color: #084BE0;
+    font-size: 40px;
+    text-align: center;
+}
+#content,
+.content
+{
+    padding: 20px;
+}
+#content
+{
+    padding-bottom: 70px;
+}
+.adsbygoogle
+{
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.fa-navicon:before,.fa-reorder:before,.fa-bars:before {
+    color: #084BE0;
+    content:"\f0c9"
+}
+.fa-user:before {
+    color: #084BE0;
+    content:"\f007"
+}
+.fa-6x {
+    font-size: 13em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Myuser {
+    margin: 10px;
+    border: 2px solid;
+}
+.left-title {
+    padding-left: 20px;
+}
+.path-title {
+    background-image: -o-linear-gradient(bottom, #FCFCFC 0%, #CFCFCF 59%);
+    background-image: -moz-linear-gradient(bottom, #FCFCFC 0%, #CFCFCF 59%);
+    background-image: -webkit-linear-gradient(bottom, #FCFCFC 0%, #CFCFCF 59%);
+    background-image: -ms-linear-gradient(bottom, #FCFCFC 0%, #CFCFCF 59%);
+    background-image: linear-gradient(to bottom, #FCFCFC 0%, #CFCFCF 59%);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.goal p {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 10px;
+}
+.goal h5 {
+    margin-left: 20px;
+}
+.current-p {
+    background: url("../img/current-p.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-size: 95% 155px;/********pavel***********/    
+    height: 155px;
+    left: 80px;
+}
+.current-p p {
+    /************pavel************/
+    width:80%;
+    color: #fff;
+    font-size: 80%;    
+}
+.current-p h5{
+    /************pavel************/
+    color: #fff;
+    font-weight: bold;
+}
+
+.target-1 {
+    background: url("../img/target-1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
+    background-size: 95% 155px;/********pavel***********/
+    left: 40px;
+    height: 155px;
+    
+}
+.target-1 p {
+    /************pavel************/
+    width:68%;
+    color: #fff;
+    font-size: 75%;
+    margin-left: 15%;
+}
+
+.target-1 h5{
+    /************pavel************/
+    color: #fff;
+    font-weight: bold;
+}
+.target-3 {
+    background: url("../img/target-2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
+    background-size: 95% 155px;/********pavel***********/    
+    height: 155px;
+}
+.target-3 p {
+    /************pavel************/
+    width:68%;
+    color: #fff;
+    font-size: 75%;
+    margin-left: 15%;
+}
+
+.target-3 h5{
+    /************pavel************/
+    color: #fff;
+    font-weight: bold;
+}
+.target-4 {
+    background: url("../img/target-3.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
+    background-size: 95% 155px;/********pavel***********/    
+    height: 155px;
+    right: 40px;
+}
+.target-4 p {
+    /************pavel************/
+    width:68%;
+    color:#fff;
+    font-size: 75%;
+    margin-left: 15%;
+}
+
+.target-4 h5{
+    /************pavel************/ 
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.business-slider {
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+}
+.business-slider .caption {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 50px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.3;
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    z-index: 2;
+}
+.business-slider a:visited {
+    color: #fff;
+}
+.business-slider .button {
+    background: none repeat scroll 0 0 #56C928;
+    float: left;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 150px;
+}
+/***************************Pavel****************************/
+.hover-box{
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 98%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;    
+    z-index: 1;
+}
+.board-img{
+    margin:20px 0;
+    overflow:hidden;
+}
+.board-img:hover .hover-box{
+    top: -300px;    
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+
+}
+.hover-box h2{
+    margin-top:20%;
+}
+.hover-content {
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 98%;
+    background: rgba(0,0,0,0.5);
+    color: blue;  
+    z-index: 1;
+}
+
+
+/**************Pavel*************/
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#footer-center-lable{
+    width: 185px;
+}
+
+.button-home {
+    border-radius: 5px;
+    bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 479px){
+    .business-slider p {
+        display: none;
+    }	
+}
+@media only screen and (max-width: 767px) {
+    .business-slider .caption {
+        width: 85%;
+        opacity: .70;
+    }
+}
+
+/******************************Pavel*********************************/
+
+option{
+    padding:2px 5px;
+}
+input {
+    padding-left: 5px;
+}
+
+.userMenu{
+    width: 24%;
+    border-radius: 10px 10px 0 0;
+    float: left;
+    text-align: center;	
+    cursor: pointer;
+}
+
+.userMenuL{
+    border-top:  2px solid #000;
+    border-bottom:  2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.userMenuR{
+    border-right: 2px solid #000;
+}
+
+.MyDevContentWrap{
+    width: 96%;		
+}
+.MyDevContentAct{
+    /*width: 48%;*/
+    border-radius:10px;
+    border: 2px solid #000;
+    margin:  25px 0px;	
+    float: left;
+    padding: 15px;
+}
+
+.MyDevContentActInner{
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.MyDevContentTraInner{
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.MyDevContentTra{
+    /*width: 48%;*/
+    border-radius:10px;
+    border: 2px solid #000;
+    margin:  25px 0px;	
+    float: right;
+    padding: 15px;
+}
+
+/************************************Pavel End******************************/
